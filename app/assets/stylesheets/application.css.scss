@@ -35,3 +35,32 @@ border-bottom-right-radius:5px;
 box-shadow:5px 5px 5px #000000;
 }
 
+/* === Circular Link === */
+.circle-link {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    margin-left: -50px;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: #000 url(../images/noise.png) repeat;
+    color: #666;
+    font-size: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: fadeInRotate 1s linear 23s backwards;
+    -moz-animation: fadeInRotate 1s linear 23s backwards;
+    -ms-animation: fadeInRotate 1s linear 23s backwards;
+    animation: fadeInRotate 1s linear 23s backwards;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+
+.circle-link:hover { background: #f77f00 url(../images/noise.png) repeat; color: #222; }
+
